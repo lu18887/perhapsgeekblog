@@ -1,0 +1,2 @@
+release 1.0.1:
+	*change site logo and change site titles
