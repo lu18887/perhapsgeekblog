@@ -10,6 +10,6 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^polls/', include('polls.urls',namespace="polls")),
-    url(r'^weblog/', include('zinnia.urls')),
+    url(r'^', include('zinnia.urls')),
     url(r'^comments/', include('django.contrib.comments.urls')),
 )
