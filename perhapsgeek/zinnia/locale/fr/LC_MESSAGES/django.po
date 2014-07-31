@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # Julien Fache <fantomas42@gmail.com>, 2011-2014
 # martinsam <martin.sam@gmail.com>, 2011
@@ -10,28 +10,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-blog-zinnia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-07 19:30+0100\n"
+"POT-Creation-Date: 2014-07-31 21:01+0800\n"
 "PO-Revision-Date: 2014-03-07 18:35+0000\n"
 "Last-Translator: Julien Fache <fantomas42@gmail.com>\n"
-"Language-Team: French (http://www.transifex.com/projects/p/django-blog-zinnia/language/fr/)\n"
+"Language-Team: French (http://www.transifex.com/projects/p/django-blog-"
+"zinnia/language/fr/)\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: breadcrumbs.py:68 templates/admin/zinnia/widgets/quickpost.html:25
-#: templates/zinnia/_entry_detail_base.html:92 templates/zinnia/base.html:48
+#: templates/zinnia/_entry_detail_base.html:92 templates/zinnia/base.html:46
 #: templates/zinnia/tag_list.html:6
 msgid "Tags"
 msgstr "Tags"
 
 #: breadcrumbs.py:71 templates/zinnia/author_list.html:6
-#: templates/zinnia/base.html:40
+#: templates/zinnia/base.html:38
 msgid "Authors"
 msgstr "Auteurs"
 
-#: breadcrumbs.py:75 admin/forms.py:57 templates/zinnia/base.html:36
+#: breadcrumbs.py:75 admin/forms.py:57 templates/zinnia/base.html:34
 #: templates/zinnia/category_list.html:6 templates/zinnia/sitemap.html:52
 msgid "Categories"
 msgstr "Catégories"
@@ -549,7 +550,9 @@ msgstr "Permission refusée"
 
 #: templates/403.html:17
 msgid "Sorry, but you don't have the permission to do this action."
-msgstr "Désolé, mais vous n'avez pas les permissions nécessaire pour faire cette action."
+msgstr ""
+"Désolé, mais vous n'avez pas les permissions nécessaire pour faire cette "
+"action."
 
 #: templates/404.html:6
 msgid "Error 404"
@@ -573,9 +576,12 @@ msgstr "Erreur du serveur"
 
 #: templates/500.html:17
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"e-mail and should be fixed shortly. Thanks for your patience."
-msgstr "Une erreur est survenue. Elle a été transmise par courriel aux administrateurs du site et sera corrigée dans les meilleurs délais. Merci pour votre patience."
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Une erreur est survenue. Elle a été transmise par courriel aux "
+"administrateurs du site et sera corrigée dans les meilleurs délais. Merci "
+"pour votre patience."
 
 #: templates/admin/zinnia/widgets/_content_stats.html:3
 msgid "Contents"
@@ -802,13 +808,13 @@ msgstr "Publier"
 
 #: templates/admin/zinnia/widgets/recent_comments.html:6
 #: templates/admin/zinnia/widgets/recent_comments.html:8
-#: templates/zinnia/base.html:56
+#: templates/zinnia/base.html:54
 msgid "Recent comments"
 msgstr "Derniers commentaires"
 
 #: templates/admin/zinnia/widgets/recent_linkbacks.html:6
 #: templates/admin/zinnia/widgets/recent_linkbacks.html:8
-#: templates/zinnia/base.html:60
+#: templates/zinnia/base.html:58
 msgid "Recent linkbacks"
 msgstr "Derniers liens entrants"
 
@@ -873,8 +879,8 @@ msgstr "Poster un commentaire"
 msgid "Comment as"
 msgstr "Commenter en tant que"
 
-#: templates/comments/zinnia/entry/form.html:26 templates/zinnia/base.html:96
-#: templates/zinnia/base.html.py:97
+#: templates/comments/zinnia/entry/form.html:26 templates/zinnia/base.html:94
+#: templates/zinnia/base.html.py:95
 msgid "Log out"
 msgstr "Déconnexion"
 
@@ -994,46 +1000,35 @@ msgstr "Liste des auteurs"
 msgid "No authors yet."
 msgstr "Pas encore d'auteur."
 
-#: templates/zinnia/base.html:16 templates/zinnia/skeleton.html:36
+#: templates/zinnia/base.html:17 templates/zinnia/skeleton.html:37
 msgid "RSS Feed of latest entries"
 msgstr "Flux RSS des derniers articles"
 
-#: templates/zinnia/base.html:17
+#: templates/zinnia/base.html:18
 msgid "RSS Feed of latest discussions"
 msgstr "Flux RSS des dernières discussions"
 
-#: templates/zinnia/base.html:27
+#: templates/zinnia/base.html:28
 msgid "Welcome!"
 msgstr "Bienvenue !"
 
-#: templates/zinnia/base.html:29
-msgid "This simple theme is the default appearance of Zinnia."
-msgstr "Ce thème simple est l'apparence par défaut de Zinnia."
-
-#: templates/zinnia/base.html:32
-msgid ""
-"Don't hesitate to override the template <strong>zinnia/base.html</strong> to"
-" start <a href='http://docs.django-blog-zinnia.com/en/latest/how-"
-"to/customize_look_and_feel.html'>customizing your Weblog</a>."
-msgstr "N'hésitez pas à surcharger le template <strong>zinnia/base.html</strong> pour commencer à <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/customize_look_and_feel.html'>personnaliser votre Blog</a>."
-
-#: templates/zinnia/base.html:44
+#: templates/zinnia/base.html:42
 msgid "Calendar"
 msgstr "Calendrier"
 
-#: templates/zinnia/base.html:52
+#: templates/zinnia/base.html:50
 msgid "Recent entries"
 msgstr "Articles récents"
 
-#: templates/zinnia/base.html:64
+#: templates/zinnia/base.html:62
 msgid "Random entries"
 msgstr "Articles au hasard"
 
-#: templates/zinnia/base.html:68
+#: templates/zinnia/base.html:66
 msgid "Popular entries"
 msgstr "Articles populaires"
 
-#: templates/zinnia/base.html:72 templates/zinnia/entry_archive_day.html:4
+#: templates/zinnia/base.html:70 templates/zinnia/entry_archive_day.html:4
 #: templates/zinnia/entry_archive_day.html:6
 #: templates/zinnia/entry_archive_day.html:11
 #: templates/zinnia/entry_archive_day.html:28
@@ -1054,15 +1049,15 @@ msgstr "Articles populaires"
 msgid "Archives"
 msgstr "Archives"
 
-#: templates/zinnia/base.html:77
+#: templates/zinnia/base.html:75
 msgid "Tools"
 msgstr "Outils"
 
-#: templates/zinnia/base.html:81 templates/zinnia/base.html.py:82
+#: templates/zinnia/base.html:79 templates/zinnia/base.html.py:80
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: templates/zinnia/base.html:88 templates/zinnia/base.html.py:89
+#: templates/zinnia/base.html:86 templates/zinnia/base.html.py:87
 msgid "Post an entry"
 msgstr "Poster un article"
 
@@ -1233,7 +1228,7 @@ msgid "page"
 msgstr "page"
 
 #: templates/zinnia/entry_list.html:11 templates/zinnia/entry_list.html:14
-#: templates/zinnia/entry_list.html:17 templates/zinnia/skeleton.html:37
+#: templates/zinnia/entry_list.html:17 templates/zinnia/skeleton.html:38
 msgid "RSS Feed"
 msgstr "Flux RSS"
 
@@ -1311,7 +1306,9 @@ msgstr "Identification requise"
 
 #: templates/zinnia/login.html:13
 msgid "Your username and password didn't match. Please try again."
-msgstr "Votre nom d'utilisateur et mot de passe ne correspondent pas. Veuillez réessayer."
+msgstr ""
+"Votre nom d'utilisateur et mot de passe ne correspondent pas. Veuillez "
+"réessayer."
 
 #: templates/zinnia/login.html:17
 msgid "You need to be connected to view this entry."
@@ -1342,8 +1339,8 @@ msgid "Valid"
 msgstr "Valider"
 
 #: templates/zinnia/sitemap.html:4 templates/zinnia/sitemap.html.py:9
-#: templates/zinnia/skeleton.html:31 templates/zinnia/skeleton.html.py:32
-#: templates/zinnia/skeleton.html:69 templates/zinnia/skeleton.html.py:70
+#: templates/zinnia/skeleton.html:32 templates/zinnia/skeleton.html.py:33
+#: templates/zinnia/skeleton.html:70 templates/zinnia/skeleton.html.py:71
 msgid "Sitemap"
 msgstr "Carte du site"
 
@@ -1359,33 +1356,36 @@ msgstr "commentaire"
 msgid "All the entries"
 msgstr "Tous les articles"
 
-#: templates/zinnia/skeleton.html:11 templates/zinnia/skeleton.html.py:53
+#: templates/zinnia/skeleton.html:11
 msgid "Just another Zinnia weblog."
 msgstr "Juste un autre blog Zinnia."
 
-#: templates/zinnia/skeleton.html:43 templates/zinnia/tags/search_form.html:4
+#: templates/zinnia/skeleton.html:44 templates/zinnia/tags/search_form.html:4
 msgid "Keywords..."
 msgstr "Mots-clefs..."
 
-#: templates/zinnia/skeleton.html:61
+#: templates/zinnia/skeleton.html:62
 msgid "Useful links"
 msgstr "Liens utiles"
 
-#: templates/zinnia/skeleton.html:64 templates/zinnia/skeleton.html.py:65
+#: templates/zinnia/skeleton.html:65 templates/zinnia/skeleton.html.py:66
 msgid "Weblog index"
 msgstr "Index du blog"
 
-#: templates/zinnia/skeleton.html:76
+#: templates/zinnia/skeleton.html:77
 msgid "Search"
 msgstr "Recherche"
 
-#: templates/zinnia/skeleton.html:86
+#: templates/zinnia/skeleton.html:87
 #, python-format
 msgid ""
-"Powered by <a href=\"http://www.djangoproject.com\">Django</a> and <a "
-"href=\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia "
+"Powered by <a href=\"http://www.djangoproject.com\">Django</a> and <a href="
+"\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia "
 "%(ZINNIA_VERSION)s</a>."
-msgstr "Propulsé par <a href=\"http://www.djangoproject.com\">Django</a> et <a href=\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia %(ZINNIA_VERSION)s</a>."
+msgstr ""
+"Propulsé par <a href=\"http://www.djangoproject.com\">Django</a> et <a href="
+"\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia "
+"%(ZINNIA_VERSION)s</a>."
 
 #: templates/zinnia/tag_list.html:4 templates/zinnia/tag_list.html.py:11
 msgid "Tag list"
@@ -1430,9 +1430,12 @@ msgstr "Articles plus anciens"
 #: templates/zinnia/tags/search_form.html:6
 msgid ""
 "You can use - to exclude words or phrases, &quot;double quotes&quot; for "
-"exact phrases and the AND/OR boolean operators combined with parenthesis for"
-" complex queries."
-msgstr "Vous pouvez utiliser le - pour exclure des mots ou des expressions, les &quot;double guillemets&quot; pour les expressions exactes et les opérateurs booléens AND/OR combinés avec des parenthèses pour les requêtes complexes."
+"exact phrases and the AND/OR boolean operators combined with parenthesis for "
+"complex queries."
+msgstr ""
+"Vous pouvez utiliser le - pour exclure des mots ou des expressions, les "
+"&quot;double guillemets&quot; pour les expressions exactes et les opérateurs "
+"booléens AND/OR combinés avec des parenthèses pour les requêtes complexes."
 
 #: templates/zinnia/tags/tag_cloud.html:6
 #, python-format
@@ -1445,11 +1448,11 @@ msgstr[1] "%(entry_count)s articles taggés par %(tag)s"
 msgid "Blog"
 msgstr "Blog"
 
-#: tests/test_views.py:555 views/search.py:30
+#: tests/test_views.py:574 views/search.py:30
 msgid "The pattern is too short"
 msgstr "Le motif de recherche est trop court !"
 
-#: tests/test_views.py:559 views/search.py:34
+#: tests/test_views.py:578 views/search.py:34
 msgid "No pattern to search found"
 msgstr "Aucun motif de recherche !"
 
@@ -1510,8 +1513,10 @@ msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/page/(?P<page>\\d+)/$"
 msgstr "^(?P<year>\\d{4})/(?P<month>\\d{2})/page/(?P<page>\\d+)/$"
 
 #: urls/archives.py:54
-msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
-msgstr "^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
+msgid ""
+"^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
+msgstr ""
+"^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
 
 #: urls/archives.py:61
 msgid "^today/$"
@@ -1555,23 +1560,35 @@ msgstr "^categories/(?P<path>[-\\/\\w]+)/$"
 
 #: urls/feeds.py:38
 msgid ""
-"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
-msgstr "^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 
 #: urls/feeds.py:42
 msgid ""
-"^comments/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
-msgstr "^commentaires/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^comments/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+"^commentaires/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 
 #: urls/feeds.py:46
 msgid ""
-"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
-msgstr "^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 
 #: urls/feeds.py:50
 msgid ""
-"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
-msgstr "^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
+msgstr ""
+"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 
 #: urls/quick_entry.py:11
 msgid "^quick-entry/$"
@@ -1584,6 +1601,11 @@ msgstr "^(?P<tag>[^/]+(?u))/page/(?P<page>\\d+)/$"
 #: views/tags.py:48
 #, python-format
 msgid "No Tag found matching \"%s\"."
+msgstr "Aucun Tag trouvé correspondant à \"%s\"."
+
+#: views/mixins/entry_preview.py:27
+#, fuzzy
+msgid "No entry found matching the query"
 msgstr "Aucun Tag trouvé correspondant à \"%s\"."
 
 #: xmlrpc/metaweblog.py:48
@@ -1606,3 +1628,15 @@ msgstr "L'utilisateur ne peut %s."
 #: xmlrpc/pingback.py:114
 msgid "No title"
 msgstr "Aucun titre"
+
+#~ msgid "This simple theme is the default appearance of Zinnia."
+#~ msgstr "Ce thème simple est l'apparence par défaut de Zinnia."
+
+#~ msgid ""
+#~ "Don't hesitate to override the template <strong>zinnia/base.html</strong> "
+#~ "to start <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/"
+#~ "customize_look_and_feel.html'>customizing your Weblog</a>."
+#~ msgstr ""
+#~ "N'hésitez pas à surcharger le template <strong>zinnia/base.html</strong> "
+#~ "pour commencer à <a href='http://docs.django-blog-zinnia.com/en/latest/"
+#~ "how-to/customize_look_and_feel.html'>personnaliser votre Blog</a>."

@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
+#
 # Translators:
 # linuxqueen <x86@263.net>, 2013
 # mrgaolei <gaolei@liheran.com>, 2014
@@ -12,28 +12,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: django-blog-zinnia\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-03-07 19:30+0100\n"
+"POT-Creation-Date: 2014-07-31 21:01+0800\n"
 "PO-Revision-Date: 2014-03-10 08:08+0000\n"
 "Last-Translator: mrgaolei <gaolei@liheran.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/django-blog-zinnia/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/django-"
+"blog-zinnia/language/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: breadcrumbs.py:68 templates/admin/zinnia/widgets/quickpost.html:25
-#: templates/zinnia/_entry_detail_base.html:92 templates/zinnia/base.html:48
+#: templates/zinnia/_entry_detail_base.html:92 templates/zinnia/base.html:46
 #: templates/zinnia/tag_list.html:6
 msgid "Tags"
 msgstr "标签"
 
 #: breadcrumbs.py:71 templates/zinnia/author_list.html:6
-#: templates/zinnia/base.html:40
+#: templates/zinnia/base.html:38
 msgid "Authors"
 msgstr "作者"
 
-#: breadcrumbs.py:75 admin/forms.py:57 templates/zinnia/base.html:36
+#: breadcrumbs.py:75 admin/forms.py:57 templates/zinnia/base.html:34
 #: templates/zinnia/category_list.html:6 templates/zinnia/sitemap.html:52
 msgid "Categories"
 msgstr "类别"
@@ -573,9 +574,11 @@ msgstr "服务器错误"
 
 #: templates/500.html:17
 msgid ""
-"There's been an error. It's been reported to the site administrators via "
-"e-mail and should be fixed shortly. Thanks for your patience."
-msgstr "发生了一个错误。这个错误已经通过e-mail通知了网站管理员，并且这个错误应该在短期内被修复。谢谢你的耐心等待。"
+"There's been an error. It's been reported to the site administrators via e-"
+"mail and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"发生了一个错误。这个错误已经通过e-mail通知了网站管理员，并且这个错误应该在短"
+"期内被修复。谢谢你的耐心等待。"
 
 #: templates/admin/zinnia/widgets/_content_stats.html:3
 msgid "Contents"
@@ -794,13 +797,13 @@ msgstr "公开的"
 
 #: templates/admin/zinnia/widgets/recent_comments.html:6
 #: templates/admin/zinnia/widgets/recent_comments.html:8
-#: templates/zinnia/base.html:56
+#: templates/zinnia/base.html:54
 msgid "Recent comments"
 msgstr "最近的评论"
 
 #: templates/admin/zinnia/widgets/recent_linkbacks.html:6
 #: templates/admin/zinnia/widgets/recent_linkbacks.html:8
-#: templates/zinnia/base.html:60
+#: templates/zinnia/base.html:58
 msgid "Recent linkbacks"
 msgstr "最近的引用"
 
@@ -864,8 +867,8 @@ msgstr "发表评论"
 msgid "Comment as"
 msgstr ""
 
-#: templates/comments/zinnia/entry/form.html:26 templates/zinnia/base.html:96
-#: templates/zinnia/base.html.py:97
+#: templates/comments/zinnia/entry/form.html:26 templates/zinnia/base.html:94
+#: templates/zinnia/base.html.py:95
 msgid "Log out"
 msgstr "退出"
 
@@ -985,46 +988,35 @@ msgstr "作者列表"
 msgid "No authors yet."
 msgstr "暂无作者"
 
-#: templates/zinnia/base.html:16 templates/zinnia/skeleton.html:36
+#: templates/zinnia/base.html:17 templates/zinnia/skeleton.html:37
 msgid "RSS Feed of latest entries"
 msgstr "RSS源的最新日志"
 
-#: templates/zinnia/base.html:17
+#: templates/zinnia/base.html:18
 msgid "RSS Feed of latest discussions"
 msgstr "RSS源的最新讨论"
 
-#: templates/zinnia/base.html:27
+#: templates/zinnia/base.html:28
 msgid "Welcome!"
 msgstr "欢迎！"
 
-#: templates/zinnia/base.html:29
-msgid "This simple theme is the default appearance of Zinnia."
-msgstr "这是zinnia默认模版的显示。"
-
-#: templates/zinnia/base.html:32
-msgid ""
-"Don't hesitate to override the template <strong>zinnia/base.html</strong> to"
-" start <a href='http://docs.django-blog-zinnia.com/en/latest/how-"
-"to/customize_look_and_feel.html'>customizing your Weblog</a>."
-msgstr "别犹豫，现在就修改模板 <strong>zinnia/base.html</strong> 来 <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/customize_look_and_feel.html'> 定制你的博客 </a>."
-
-#: templates/zinnia/base.html:44
+#: templates/zinnia/base.html:42
 msgid "Calendar"
 msgstr "日历"
 
-#: templates/zinnia/base.html:52
+#: templates/zinnia/base.html:50
 msgid "Recent entries"
 msgstr "最近日志"
 
-#: templates/zinnia/base.html:64
+#: templates/zinnia/base.html:62
 msgid "Random entries"
 msgstr "随机日志"
 
-#: templates/zinnia/base.html:68
+#: templates/zinnia/base.html:66
 msgid "Popular entries"
 msgstr "热门日志"
 
-#: templates/zinnia/base.html:72 templates/zinnia/entry_archive_day.html:4
+#: templates/zinnia/base.html:70 templates/zinnia/entry_archive_day.html:4
 #: templates/zinnia/entry_archive_day.html:6
 #: templates/zinnia/entry_archive_day.html:11
 #: templates/zinnia/entry_archive_day.html:28
@@ -1045,15 +1037,15 @@ msgstr "热门日志"
 msgid "Archives"
 msgstr "归档"
 
-#: templates/zinnia/base.html:77
+#: templates/zinnia/base.html:75
 msgid "Tools"
 msgstr "工具"
 
-#: templates/zinnia/base.html:81 templates/zinnia/base.html.py:82
+#: templates/zinnia/base.html:79 templates/zinnia/base.html.py:80
 msgid "Dashboard"
 msgstr "面板"
 
-#: templates/zinnia/base.html:88 templates/zinnia/base.html.py:89
+#: templates/zinnia/base.html:86 templates/zinnia/base.html.py:87
 msgid "Post an entry"
 msgstr "发布日志"
 
@@ -1224,7 +1216,7 @@ msgid "page"
 msgstr "页"
 
 #: templates/zinnia/entry_list.html:11 templates/zinnia/entry_list.html:14
-#: templates/zinnia/entry_list.html:17 templates/zinnia/skeleton.html:37
+#: templates/zinnia/entry_list.html:17 templates/zinnia/skeleton.html:38
 msgid "RSS Feed"
 msgstr "RSS 源"
 
@@ -1332,8 +1324,8 @@ msgid "Valid"
 msgstr "有效"
 
 #: templates/zinnia/sitemap.html:4 templates/zinnia/sitemap.html.py:9
-#: templates/zinnia/skeleton.html:31 templates/zinnia/skeleton.html.py:32
-#: templates/zinnia/skeleton.html:69 templates/zinnia/skeleton.html.py:70
+#: templates/zinnia/skeleton.html:32 templates/zinnia/skeleton.html.py:33
+#: templates/zinnia/skeleton.html:70 templates/zinnia/skeleton.html.py:71
 msgid "Sitemap"
 msgstr "网站地图"
 
@@ -1349,31 +1341,31 @@ msgstr "评论"
 msgid "All the entries"
 msgstr "所有日志"
 
-#: templates/zinnia/skeleton.html:11 templates/zinnia/skeleton.html.py:53
+#: templates/zinnia/skeleton.html:11
 msgid "Just another Zinnia weblog."
 msgstr "又一个Zinnia博客。"
 
-#: templates/zinnia/skeleton.html:43 templates/zinnia/tags/search_form.html:4
+#: templates/zinnia/skeleton.html:44 templates/zinnia/tags/search_form.html:4
 msgid "Keywords..."
 msgstr "关键词..."
 
-#: templates/zinnia/skeleton.html:61
+#: templates/zinnia/skeleton.html:62
 msgid "Useful links"
 msgstr "可用链接"
 
-#: templates/zinnia/skeleton.html:64 templates/zinnia/skeleton.html.py:65
+#: templates/zinnia/skeleton.html:65 templates/zinnia/skeleton.html.py:66
 msgid "Weblog index"
 msgstr "博客索引"
 
-#: templates/zinnia/skeleton.html:76
+#: templates/zinnia/skeleton.html:77
 msgid "Search"
 msgstr "搜索"
 
-#: templates/zinnia/skeleton.html:86
+#: templates/zinnia/skeleton.html:87
 #, python-format
 msgid ""
-"Powered by <a href=\"http://www.djangoproject.com\">Django</a> and <a "
-"href=\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia "
+"Powered by <a href=\"http://www.djangoproject.com\">Django</a> and <a href="
+"\"https://github.com/Fantomas42/django-blog-zinnia\">Zinnia "
 "%(ZINNIA_VERSION)s</a>."
 msgstr ""
 
@@ -1420,9 +1412,11 @@ msgstr "更多以前日志"
 #: templates/zinnia/tags/search_form.html:6
 msgid ""
 "You can use - to exclude words or phrases, &quot;double quotes&quot; for "
-"exact phrases and the AND/OR boolean operators combined with parenthesis for"
-" complex queries."
-msgstr "你可以使用 - 排除单词或词组；“双引号”；对于精确的短语和AND/OR布尔操作结合括号可以作复杂的查询。"
+"exact phrases and the AND/OR boolean operators combined with parenthesis for "
+"complex queries."
+msgstr ""
+"你可以使用 - 排除单词或词组；“双引号”；对于精确的短语和AND/OR布尔操作结合括号"
+"可以作复杂的查询。"
 
 #: templates/zinnia/tags/tag_cloud.html:6
 #, python-format
@@ -1434,11 +1428,11 @@ msgstr[0] "%(entry_count)s 日志的标签是%(tag)s"
 msgid "Blog"
 msgstr ""
 
-#: tests/test_views.py:555 views/search.py:30
+#: tests/test_views.py:574 views/search.py:30
 msgid "The pattern is too short"
 msgstr "模式长度不够"
 
-#: tests/test_views.py:559 views/search.py:34
+#: tests/test_views.py:578 views/search.py:34
 msgid "No pattern to search found"
 msgstr "没有搜索到相关模式"
 
@@ -1499,7 +1493,8 @@ msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/page/(?P<page>\\d+)/$"
 msgstr ""
 
 #: urls/archives.py:54
-msgid "^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
+msgid ""
+"^(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/page/(?P<page>\\d+)/$"
 msgstr ""
 
 #: urls/archives.py:61
@@ -1544,22 +1539,26 @@ msgstr ""
 
 #: urls/feeds.py:38
 msgid ""
-"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^discussions/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 msgstr ""
 
 #: urls/feeds.py:42
 msgid ""
-"^comments/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^comments/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 msgstr ""
 
 #: urls/feeds.py:46
 msgid ""
-"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^pingbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 msgstr ""
 
 #: urls/feeds.py:50
 msgid ""
-"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-\\w]+)/$"
+"^trackbacks/(?P<year>\\d{4})/(?P<month>\\d{2})/(?P<day>\\d{2})/(?P<slug>[-"
+"\\w]+)/$"
 msgstr ""
 
 #: urls/quick_entry.py:11
@@ -1573,6 +1572,11 @@ msgstr ""
 #: views/tags.py:48
 #, python-format
 msgid "No Tag found matching \"%s\"."
+msgstr "没有标签匹配“%s”"
+
+#: views/mixins/entry_preview.py:27
+#, fuzzy
+msgid "No entry found matching the query"
 msgstr "没有标签匹配“%s”"
 
 #: xmlrpc/metaweblog.py:48
@@ -1595,3 +1599,15 @@ msgstr "用户不能%s"
 #: xmlrpc/pingback.py:114
 msgid "No title"
 msgstr "无标题"
+
+#~ msgid "This simple theme is the default appearance of Zinnia."
+#~ msgstr "这是zinnia默认模版的显示。"
+
+#~ msgid ""
+#~ "Don't hesitate to override the template <strong>zinnia/base.html</strong> "
+#~ "to start <a href='http://docs.django-blog-zinnia.com/en/latest/how-to/"
+#~ "customize_look_and_feel.html'>customizing your Weblog</a>."
+#~ msgstr ""
+#~ "别犹豫，现在就修改模板 <strong>zinnia/base.html</strong> 来 <a "
+#~ "href='http://docs.django-blog-zinnia.com/en/latest/how-to/"
+#~ "customize_look_and_feel.html'> 定制你的博客 </a>."
