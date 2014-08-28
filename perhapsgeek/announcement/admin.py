@@ -7,7 +7,11 @@ from announcement.models import Announcement
 
 
 class  AnnouncementAdmin(admin.ModelAdmin):
-	pass	
+	date_hierarchy ='modify_date'	
+	fields = ('title','content','enable_flag')
+	exclude = ('add_date','modify_date')
+	list_display = ('title','modify_date','add_date','enable_flag')
+	list_filter = ('add_date','modify_date')
 
 
 
