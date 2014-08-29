@@ -36,6 +36,7 @@ from zinnia.comparison import VectorBuilder
 from zinnia.comparison import pearson_score
 from zinnia.calendar import Calendar
 from zinnia.breadcrumbs import retrieve_breadcrumbs
+from announcement.models import Announcement
 
 register = Library()
 
@@ -77,6 +78,16 @@ def get_authors(context, template='zinnia/tags/authors.html'):
             'authors': Author.published.all().annotate(
                 count_entries_published=Count('entries')),
             'context_author': context.get('author')}
+			
+			
+@register.inclusion_tag('zinnia/tags/dummy.html', takes_context=True)
+def get_announcements(context, template='zinnia/tags/announcements.html'):
+    """
+    Return the enabled announcements.
+    """
+    return {'template': template,
+            'announcements': Announcement.objects.filter(enable_flag=True)
+           }
 
 
 @register.inclusion_tag('zinnia/tags/dummy.html')
