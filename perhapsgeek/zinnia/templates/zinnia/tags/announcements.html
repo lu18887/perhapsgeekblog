@@ -1,0 +1,12 @@
+{% load i18n %}
+<ul class="{% if not announcements %}no-{% endif %}announcements">
+  {% for announcement in announcements %}
+	<li>
+	{{announcement.content|safe}}
+  </li>
+  {% empty %}
+  <li>
+    {% trans "No Announcement yet." %}
+  </li>
+  {% endfor %}
+</ul>
